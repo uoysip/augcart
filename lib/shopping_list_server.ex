@@ -17,14 +17,9 @@ defmodule ShoppingListServer do
 
   def loop(users, lists) do
 
-    # Receive loop goes here
-    #
-    # For each request that is received, you MUST spawn a new process
+    # For each request that is received, MUST spawn a new process
     # to handle it (either here, or in a helper method) so that the main
     # process can immediately return to processing incoming messages
-    #
-    # Note: use helper functions.  Implementing everything in a massive
-    # function here will lose you marks.
 
   end
 

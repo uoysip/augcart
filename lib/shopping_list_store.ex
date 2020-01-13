@@ -1,11 +1,11 @@
 defmodule ShoppingListStore do
 
   # Path to the shopping list files (db/lists/*)
-  # Don't forget to create this directory if it doesn't exist
+  # TODO: Don't forget to create this directory if it doesn't exist
   @database_directory Path.join("db", "lists")
 
-  # Note: you will spawn a process to run this store in
-  # ShoppingListServer.  You do not need to spawn another process here
+  # spawn a process to run this store in
+  # ShoppingListServer.  No need to spawn another process here
   def start() do
     # Call your receive loop
     loop()
@@ -51,7 +51,7 @@ defmodule ShoppingListStore do
     end   
   end
 
-  # Implemented for you
+  # Clear the database
   defp clear(caller) do
     File.rm_rf @database_directory
     send(caller, {self(), :cleared})

@@ -3,7 +3,7 @@ import User
 defmodule UserStore do
 
   # Path to the user database file
-  # Don't forget to create this directory if it doesn't exist
+  # TODO: create this directory if it doesn't exist
   @database_directory "db"
 
   # Name of the user database file
