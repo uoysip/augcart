@@ -1,0 +1,7 @@
+#!/bin/bash
+
+iex --name ${USER}-server@127.0.0.1 \
+    --cookie ${USER}-cookie \
+    --erl '-kernel inet_dist_listen_min 50000' \
+    --erl '-kernel inet_dist_listen_max 60000' \
+    -S mix run lib/cli.exs --no-halt
