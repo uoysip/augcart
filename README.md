@@ -36,3 +36,7 @@ Commands
 ## Tests
 
 Includes robust test harnesses to ensure proper storage of data, handling of command edge-cases, user creation/deletion, addition/removal of items, and much more.
+
+## License
+
+This project is released under the MIT license, see the LICENSE file for details.
