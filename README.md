@@ -35,7 +35,7 @@ Commands
 
 ## Tests
 
-Includes robust test harnesses to ensure proper storage of data, handling of command edge-cases, user creation/deletion, addition/removal of items, and much more.
+Includes over a thousand lines of robust test harnesses to ensure proper storage of data, handling of command edge-cases, user creation/deletion, addition/removal of items, and much more.
 
 ## License
 
