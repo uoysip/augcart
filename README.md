@@ -1,7 +1,7 @@
 # AugCart
 
 
-AugCart is a multithreaded, highly scalable CLI shopping list server which supports (with the current configuration) up to 2,000,000+ concurrent users. Made possible by using the [Elixir Programming Language](https://elixir-lang.org).
+AugCart is a multithreaded, highly scalable CLI shopping list server which supports (with the current configuration) up to 2,000,000+ concurrent users. Made possible with [Elixir](https://elixir-lang.org).
 
 ![Client CLI](https://i.imgur.com/N09Ojqy.png)
 
